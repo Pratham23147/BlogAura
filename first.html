@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogAura</title>
+    <meta name="title" content="BlogAura">
+    <meta name="description" content="This is a blog html templete made by the Pratham.">
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+          <div class="logo">
+            <h1 class="logo-text"><span>Blog</span>Aura</h1>
+          </div>
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#" class="nam">Features</a>
+              <ul>
+                <li class="adminhtml"><a href="admin.html">TextEditor</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#">SignUp</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li><a href="#" class="nam">&#128100;HelloLegend</a>
+              <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="index.html" class="logout">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+    </header>
+    <main>
+      <div>
+      <h1 class="heading">
+        Trending Posts
+      </h1>
+      <div class="carousel-container"> 
+        <button class="carousel-btn left-btn" id="left-btn">←</button>
+         <div class="carousel">
+           <div class="carousel-track"> <!-- Cards will be dynamically added here --> </div>
+         </div> 
+         <button class="carousel-btn right-btn" id="right-btn">→</button> 
+        </div>
+
+    <!-- section -->
+    <section class="hot-topics">
+      <div class="hot-topics-intro">
+        <div>
+        <h2 class="headline">Hot topics</h2> 
+        <p class="headlinetext">Be sure!!You don't miss out on the latest news about Travel tips, Hotels review, Food guide...</p>
+      </div>
+        <div class="button-group">
+        <button class="slider-btn left-btn" id="hot-left-btn">←</button>  
+        <button class="slider-btn right-btn" id="hot-right-btn">→</button>
+        </div>
+      </div> 
+      <a href="sports.html">
+      <div class="hot-topics-slider"> 
+        <div class="card1">
+          <img src="./s1.jpg"  alt="Sport">
+          <div class="card-content">
+              <h3 class="card-title">Sport</h3>
+              <p class="card-articles">38 Articles</p>
+          </div> 
+        </div>
+      </a>
+        <a href="sports.html">
+        <div class="card1">
+          <img src="./s2.png" alt="Sport">
+          <div class="card-content">
+              <a href="sport"><h3 class="card-title">Design</h3></a>
+              <p class="card-articles">65 Articles </p>
+          </div>
+        </div>
+      </a>
+      <a href="sports.html">
+        <div class="card1">
+          <img src="./s3.jpg" alt="Sport">
+          <div class="card-content">
+              <h3 class="card-title">Movie</h3>
+              <p class="card-articles">89 Articles</p>
+          </div> 
+        </a>
+          <div class="card1">
+            <img src="./s3.jpg" alt="Sport">
+            <div class="card-content">
+                <h3 class="card-title">Movie</h3>
+                <p class="card-articles">89 Articles</p>
+            </div> 
+        </div>
+        
+      </div>  
+     </div> 
+    </section>
+
+    <!-- this section will be for the recent posts and the another side i will give it to the  search and topic bar thats it-->
+    <section class="recent">
+        <div class="recentpost">
+          <h1>Latests Posts</h1>
+        </div>
+        <div class="latest" id="latest ">
+          <!-- here card will be posted about the card -->
+           <div class="recent_card">
+              <div class="recent_img">
+                <img src="./image1.webp" alt="Image">
+              </div>
+              <div class="recent_info">
+                  <div class="recent_h1">
+                    <h1>UK</h1>
+                  </div>
+                  <div id="recent_publihser">
+                      <span>&#128100;PrathamMundada </span>
+                      <span id="recent_publihser0"></span>
+                  </div>
+                  <div class="recent_para">
+                    <p id="recent_para0"></p>
+                  </div>
+                  <div class="readmore inputr">ReadMore</div>
+              </div>
+           </div>
+           <div class="recent_card">
+            <div class="recent_img">
+              <img src="./image2.webp" alt="Image">
+            </div>
+            <div class="recent_info">
+                <div class="recent_h1">
+                  <h1>This is the image</h1>
+                </div>
+                <div id="recent_publihser">
+                    <span>&#128100;PrathamMundada </span>
+                    <span id="recent_publihser1"></span>
+                </div>
+                <div class="recent_para">
+                  <p id="recent_para1"></p>
+                </div>
+                <div class="readmore inputr">ReadMore</div>
+            </div>
+         </div>
+         <div class="recent_card">
+          <div class="recent_img">
+            <img src="./image3.webp" alt="Image">
+          </div>
+          <div class="recent_info">
+              <div class="recent_h1">
+                <h1>This is the image</h1>
+              </div>
+              <div id="recent_publihser">
+                  <span>&#128100;PrathamMundada </span>
+                  <span id="recent_publihser2"></span>
+              </div>
+              <div class="recent_para">
+                <p id="recent_para2"></p>
+              </div>
+              <div class="readmore inputr">ReadMore</div>
+          </div>
+        
+       </div>
+           
+        </div>
+        <div class="recent-sider">
+          <div class="recentsearch">
+            <input type="text" value="Search..." id="myInput">
+          </div>
+          <div class="recent-topics">
+            <h1>Topics</h1><hr>
+            <a href="sports.html"><p class="rt">Anime</p></a><hr>
+            <a href="sports.html"><p class="rt">Design</p></a><hr>
+            <a href="sports.html"></a><p class="rt">Entertainment</p></a><hr>
+            <a href="sports.html"></a><p class="rt">Innovation</p></a><hr>
+            <a href="sports.html"></a><p class="rt">Sports</p></a><hr>
+            <a href="sports.html"></a><p class="rt">Tech</p></a><hr>
+          </div>
+        </div>
+    </section>
+
+    
+    </main>
+
+
+
+    <footer class="footer">
+      <div class="section">
+          <h2 class="y1">Blog<span>Aura</span></h2> 
+          <p>BlogAura is a blog website where you can enjoy and create the blog.</p>
+          <p><i class="fa fa-phone"></i>9421895581</p>
+            <p><i class="fa fa-envelope"></i> blogaura@gmail.com</p> 
+            <div class="social-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a> 
+              <a href="#"><i class="fa fa-youtube"></i></a> 
+            </div> 
+      </div>
+      <div class="section">
+        <h2>Quick Links</h2>
+        <ul> 
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li> 
+          <li><a href="#">Mentors</a></li> 
+          <li><a href="#">Galleries</a></li> 
+          <li><a href="#">Write for us</a></li> 
+          <li><a href="#">Terms and conditions</a></li> 
+        </ul> 
+      </div> 
+      <div class="section"> 
+        <h2>Contact Us</h2> 
+        <form class="contact-form"> 
+          <input type="email" placeholder="Your email address"> 
+          <textarea placeholder="Message..."></textarea> 
+          <button type="submit">Send</button> 
+        </form>
+      </div>
+    </footer>
+  
+    <script src="./first.js"></script>
+</body>
+</html>
